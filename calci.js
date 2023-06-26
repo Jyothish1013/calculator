@@ -1,5 +1,5 @@
 let num = "";
-let result = "";
+let result = 0;
 
 function calc(a) {
   num += a;
