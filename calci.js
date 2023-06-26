@@ -29,7 +29,7 @@ function display1() {
 
 function allClear() {
   num = "";
-  result = "";
+  result = 0;
   display();
   display1();
 }
