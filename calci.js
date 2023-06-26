@@ -3,7 +3,7 @@ let result = "";
 
 function calc(a) {
   num += a;
-  if (a === "+" || a === "-" || a === "*" || a === "/") {
+  if (a === "+" || a === "-" || a === "*" || a === "/"  || a === "(" || a === ")") {
     display();
   } else {
     result = eval(num);
